@@ -1,0 +1,64 @@
+<!doctype html>
+<!--doctype informa ao agente de usuário a versão do HTML que deve ser renderizada -->
+<html lang="pt-br">
+
+    <head>
+        
+        <title> página de exemplo estrutura básica</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Bruno">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+   
+    </head>
+    
+    <style>
+      
+        span{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #ccc;   
+            position: relative;
+        }  
+        
+       input[type='checkbox']:checked + span:before{
+            content: '';
+            border: 2px solid blue;
+            display: block;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            right: 4px;
+            bottom: 4px;
+           transform: rotate(45deg);
+           border-radius: 2px;
+           border-top: transparent;
+           border-left: transparent;
+        }
+        
+        input[type='checkbox']{
+            height: 1px;
+            width: 1px;
+            opacity: 0;
+            overflow: hidden;
+            display: inline-block;
+        }
+        
+        input:focus + span{
+            box-shadow: 0 0 0 2px blue;
+        }
+        
+    </style>
+    
+    <body>
+        
+        <label> 
+        <input type="checkbox" value="qq">
+            <span></span> Li e aceito o contrato
+        </label>
+        
+        
+    </body>
+
+</html>

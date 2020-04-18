@@ -1,0 +1,91 @@
+<!doctype html>
+<!--doctype informa ao agente de usuário a versão do HTML que deve ser renderizada -->
+<html lang="pt-br">
+
+    <head>
+        
+        <title> página de exemplo estrutura básica</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Bruno">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+   
+    </head>
+    
+    <style>
+        
+        .gridContainer{
+            width: 200px;
+            font-family: sans-serif;
+            background-image: linear-gradient(#b7b7b7, #9c9c9c);
+            padding: 15px;
+            border-radius: 5px;
+            margin: 30px auto;
+        }
+        
+        .gridItens{
+            font-family: sans-serif;
+            font-size: 1em;
+        }
+        
+        /*        GRID*/
+        .gridContainer{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(6, 1fr); 
+            grid-gap: 5px;
+
+        }
+        
+        .display{
+            grid-column: 1/-1;
+            text-align-last: right;
+            background-image: linear-gradient(#c5c5c5, #e0e0e0);
+            box-shadow: inset 1px 2px white;
+            font-size: 1.4em;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .gridItens:nth-child(18){
+            grid-column: 1/3;
+            background: #adadad;
+        }
+        
+        .gridItens:nth-child(17){
+            background: #adadad;
+            grid-row: 5/7;
+            grid-column: 4;
+        }
+    
+    </style>
+    
+    
+    <body>
+        
+        <div class="gridContainer flexContainer">
+        
+            <div class="display">0</div>
+            <button class="gridItens">AC</button>
+            <button class="gridItens">%</button>
+            <button class="gridItens">X</button>
+            <button class="gridItens">/</button>
+            <button class="gridItens">7</button>
+            <button class="gridItens">8</button>
+            <button class="gridItens">9</button>
+            <button class="gridItens">=</button>
+            <button class="gridItens">4</button>
+            <button class="gridItens">5</button>
+            <button class="gridItens">6</button>
+            <button class="gridItens">.</button>
+            <button class="gridItens">1</button>
+            <button class="gridItens">2</button>
+            <button class="gridItens">3</button>
+            <button class="gridItens">+</button>
+            <button class="gridItens">0</button>
+            <button class="gridItens">,</button>
+        </div>        
+            
+   </body>
+
+</html>

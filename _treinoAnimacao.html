@@ -1,0 +1,73 @@
+<!doctype html>
+<!--doctype informa ao agente de usuário a versão do HTML que deve ser renderizada -->
+<html lang="pt-br">
+
+    <head>
+        
+        <title> página de exemplo estrutura básica</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Bruno">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+   
+         
+    <style>
+        @keyframes slideshow{
+            0%, 100%{
+                transform: translateY(0);
+            }
+            
+            25%{
+                transform: translateY(-30vh);
+            }
+            
+            50%{
+                transform: translateY(-60vh);
+            }
+            
+            75%{
+                transform: translateY(-90vh);
+            }
+        }
+        
+        .divExterna{
+            width: 50vw;
+            height: 30vh;
+            border: 10px solid black;
+            margin: 30px auto;
+            overflow: hidden;
+        }
+        
+        .divInterna{
+            animation: slideshow 10s ease-in-out infinite;
+        }
+        
+        .divInterna:hover{
+            animation-play-state: paused;
+            cursor: pointer;
+        }
+        
+        .divInterna img{
+            width: 100%;
+            display: block;
+            height: 30vh;
+        }
+        
+    </style>
+        
+    </head>
+   
+    <body>
+            
+        <div class="divExterna">
+            <div class="divInterna">
+                <img src="thumbs/01.jpg">
+                <img src="thumbs/02.jpg">
+                <img src="thumbs/03.jpg">
+                <img src="thumbs/04.jpg">
+            </div>
+        </div>
+        
+   </body>
+
+</html>

@@ -1,0 +1,449 @@
+body{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: normal;
+    padding: 0;
+    margin-top: -20px;
+}
+
+#principal{
+    background: #FFF8ED;
+    opacity: 1;
+    }
+
+.hero{
+    position: relative;
+}
+
+.hero h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    padding-top: 10px; 
+}
+
+.hero strong{
+    color: #B38F24;
+    font-weight: normal;
+}
+
+.hero p{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #393939;
+    display: inline-block;
+    width: 500px;
+    margin-left: 380px;
+    margin-top: 0px;
+    font-family: open sans;
+    padding-left: 15px;
+}
+
+.hero img{
+    width: 530px;
+    height: 300px;
+    margin-left: 380px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.hero ul{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    left: 460px;
+}
+
+.hero li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    background: #F2C43D 0% 0% no-repeat padding-box;
+    margin: 10px;
+    border: 1px solid #2D2D2D;
+}
+
+.hero a{
+    text-decoration: none;
+    color: black;
+    font-family: Open Sans;
+    font-weight: bold;
+    padding: 14px;
+    
+}
+
+.hero-h2{
+    text-align: center;
+}
+
+.hero-h2 strong{
+    color: #B38F24;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.historia{
+    background: white;
+    width: 100%;
+    height: 330px;
+}
+
+.historia img{
+    float: left;
+    margin: 33px 0 0 150px;
+    display: inline-block;
+}
+
+.historia p{
+    font-family: Open Sans;
+    display: block;
+    display: inline-block;
+    width: 500px;
+    margin: 50px 0 0 30px;
+}
+
+.historia strong{
+    color: #B38F24;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.historia ul{
+    margin: 60px 0 0 880px;
+}
+
+.historia li{
+    list-style: none;
+    display: inline-block;
+    font-family: Open Sans;
+}
+
+.historia a{
+    color: #2D2D2D;
+    text-decoration: none;
+    padding: 15px;
+    background: #F2C43D;
+    border: 1px solid #2D2D2D;
+    font-weight: bold;
+}
+
+.ingredientes{
+    position: relative;
+}
+
+.div1{
+    margin-left: 150px;
+}
+
+.div4{
+    margin-left: 250px;
+    color: #B38F24;
+}
+
+.div2{
+   margin-left: 270px;
+}
+
+.div5{
+    margin-left: 370px;
+    color: #B38F24;
+}
+
+.div3{
+    margin-left: 450px;
+}
+
+.ingredientes img{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: -5px;
+    right: 100px;
+}
+
+.tamanho{
+    background: white;
+    position: relative;
+    height: 350px;
+}
+
+.tamanho img{
+    margin: 40px 0 0 120px;
+}
+
+.tamanho h2{
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 240px;
+}
+
+.tamanho strong{
+    color: #B39154;
+    font-weight: normal;
+}
+
+.combina{
+    position: relative;
+    height: 350px;
+}
+
+.combina h2{
+    display: inline-block;
+    position: relative;
+    left: 130px;
+}
+
+.combina img{
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    top: 70px;
+}
+
+.combina strong{
+    font-weight: normal;
+    color: #B39154;
+}
+
+.comentario{
+    height: 500px;
+    background: white;
+}
+
+.comentario1{
+    position: relative;
+    left: 250px;
+    top: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.comentario2{
+    position: relative;
+    left: -130px;
+    top: 180px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.comentario3{
+    position: relative;
+    left: -100px;
+    top: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.comentario4{
+    position: relative;
+    left: 650px;
+    top: 60px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.comentario h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.comentario strong{
+    font-weight: normal;
+    color: #B38F24;
+}
+
+.pedido{
+    height: 350px;
+    position: relative;
+}
+
+.pedido h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pedido strong{
+    font-weight: normal;
+    color: #B38F24;
+}
+
+.img1{
+    position: relative;
+    left: 120px;
+    display: inline-block;
+    
+}
+
+.img2{
+    position: relative;
+    left: 260px;
+    top: 15px;
+    display: inline-block;
+}
+
+.img3{
+    position: relative;
+    left: 300px;
+    top: 15px;
+    display: inline-block;
+}
+
+.img4{
+    position: relative;
+    left: 350px;
+    top: 35px;
+    display: inline-block;
+}
+
+.img5{
+    position: relative;
+    left: 390px;
+    display: inline-block;
+}
+
+.pedido ul{
+    text-align: center;
+    margin: 45px 0 0 0px;
+    
+}
+
+.pedido li{
+    display: inline-block;
+    border: 1px solid #2D2D2D;
+    padding: 8px;
+    background: #F2C43D;
+    margin: 0 48px 0 50px;
+    font-family: Open Sans;
+    font-weight: bold;
+}
+
+.pedido a{
+    text-decoration: none;
+}
+
+.videos{
+    background: white;
+    position: relative;
+    height: 450px;
+}
+
+.videos h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.videos p{
+    font-family: Open Sans;
+}
+
+.videos div{
+    position: relative;
+    left: 200px; 
+    margin: 0 0 0 25px;
+}
+
+.videos strong{
+    font-weight: normal;
+    color: #B38F24;
+}
+
+.video1{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.video1 img{
+    padding-left: 40px;
+}
+
+
+.video2{
+    display: inline-block;
+    text-align: center;   
+}
+
+.video2 img{
+    position: relative;
+    top: 15px;
+}
+
+.video2 p{
+    position: relative;
+    top: 22px;
+}
+
+.video3{
+    display: inline-block;
+    text-align: center;
+}
+
+.video3 img{
+    position: relative;
+    right: 20px;
+}
+
+.sobre{
+    background: white;
+    margin-top: -20px;
+    position: relative;
+}
+
+.sobre h2{
+    text-align: center;
+}
+
+.sobre strong{
+    font-weight: normal;
+    color: #B38F24;
+}
+
+.sobre a{
+    text-decoration: underline;
+    color:  #B38F24;
+}
+
+.sobre p{
+    font-family: Open Sans;
+}
+
+.sobre-img{
+    float: left;
+    margin-left: 150px;
+}
+
+.sobre p{
+    display: inline-block;
+    width: 450px;
+    margin-left: 20px;
+}
+
+.sobre-detalhes{
+    display: inline-block;
+    position: relative;
+    top: -18px;
+}
+
+.sobre-whatsapp{
+    display: inline-block;
+    position: relative;
+    top: -40px;
+}
+
+.sobre-endereço{
+    display: inline-block;
+    position: relative;
+    top: -50px;
+}
+
+.sobre-horario{
+    display: inline-block;
+    position: relative;
+    top: -50px;
+}
+
+
+
+

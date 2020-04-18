@@ -1,0 +1,112 @@
+<!doctype html>
+<!--doctype informa ao agente de usuário a versão do HTML que deve ser renderizada -->
+<html lang="pt-br">
+
+    <head>
+        
+        <title> página de exemplo estrutura básica</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Bruno">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+   
+    </head>
+    
+    <style>
+        
+        a{
+            display: inline-block;
+            margin: 10px;
+            position: relative;
+        }
+            
+        a img{
+            display: block;
+        }
+        
+        a:before{
+            content: '';
+            position: absolute;
+            width: 370px;
+            height: 217px;
+            transition: all .5s;
+            background: transparent;
+        }
+        
+        
+        a:hover:before{
+            background: rgba(0,0,0,.5);
+        }
+        
+        a:focus:before{
+            background: rgba(0,0,0,.5);
+        }
+        
+        a:after{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            padding: 10px;
+            transform: translate(-50%, -50%);
+            border: 1px solid transparent;
+            background: transparent;
+            color: white;  
+            opacity: 0;
+        }
+        
+        a:hover:after{
+            content: "Veja mais";
+            border: 1px solid white;
+            opacity: 1;
+        }
+        
+        a:focus:after{
+            content: "Veja mais";
+            border: 1px solid white;
+            opacity: 1;
+        }
+        
+    </style>
+    
+    <body>
+        <section>
+            <article>    
+                <a href="#">
+                    <img src="thumbs/01.jpg" alt="">
+                </a>
+            </article>
+
+            <article>
+                <a href="#">
+                    <img src="thumbs/02.jpg" alt="">
+                </a>
+            </article>
+
+            <article>
+                <a href="#">
+                    <img src="thumbs/03.jpg" alt="">
+                </a>
+            </article>
+
+            <article>
+                <a href="#">
+                    <img src="thumbs/04.jpg" alt="">
+                </a>
+            </article>
+
+            <article>
+                <a href="#">
+                    <img src="thumbs/05.jpg" alt="">
+                </a>
+            </article>
+
+            <article>
+                <a href="#">
+                    <img src="thumbs/06.jpg" alt="">
+                </a>
+            </article>
+        </section>    
+    </body>
+
+</html>

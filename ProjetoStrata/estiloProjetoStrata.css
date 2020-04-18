@@ -1,0 +1,345 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    position:absolute;
+    margin: 0;
+    color: hsl(0, 11%, 77%);
+}
+
+header{
+    background-image: url("Projeto Strata/images/bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 35%;
+    position: fixed;
+    display: block;
+    height: 100%;
+}
+
+header h1{
+    padding-top: 50%;
+    text-align: center;
+    color: hsl(0, 11%, 77%);
+    font-size: 24px;
+}
+
+header h1 b{
+    color: white;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: hsl(0, 11%, 77%);
+}
+
+header img{
+    position: relative;
+    border-radius: 50%;
+    left: 240px;
+    bottom: 280px;
+}
+
+.main-content{
+    width: 65%;
+    position: relative;
+    left: 470px;
+}
+
+.content-top h2{
+    text-align: justify;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: hsl(0, 7%, 66%);
+} 
+
+.content-top p{
+    text-align: justify;
+    display: inline-block;
+    width: 700px;
+    padding-left: 50px;
+}
+
+.content-top a{
+    display: inline-block;
+    border: 1px solid hsl(0, 7%, 66%);
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-left: 50px;
+    color: hsl(0, 7%, 66%);
+}
+
+.recent-work {
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.recent-work h3{
+    color: hsl(0, 11%, 55%);
+}
+
+.recent-work img{
+    height: 250px;
+    width: 350px;
+}
+
+.recent-work p{
+    color: hsl(0, 11%, 55%);
+}
+
+.img2{
+    display: inline-block;
+    position: relative;
+    left: 410px;
+    bottom: 323px;
+}
+
+.img3{
+    display: inline-block;
+    position: relative;
+    right: 365px;
+}
+
+.img4{
+    display: inline-block;
+    position: relative;
+    left: 410px;
+    bottom: 323px;
+}
+
+.img5{
+    display: inline-block;
+    position: relative;
+    right: 365px;
+}
+
+.img6{
+     display: inline-block;
+    position: relative;
+    left: 410px;
+    bottom: 323px;
+}
+
+.recent-work a{
+    display: inline-block;
+    border: 1px solid hsl(0, 7%, 66%);
+    text-decoration: none;
+    padding: 10px 25px;
+    color: hsl(0, 7%, 66%);
+    position: relative;
+    bottom: 250px;
+    right: 365px;
+}
+
+.get{
+    margin-left: 45px;
+    position: relative;
+    bottom: 150px;
+    display: inline-block;
+    width: 750px;
+}
+
+.get h3{
+    color: hsl(0, 11%, 55%);
+}
+
+.get-form{
+    display: inline-block;
+    width: 540px;
+}
+
+.get-form-text{
+    background-color: hsl(0, 23%, 90%);
+    padding: 10px;
+    margin: 10px;
+}
+
+.get-form-email{
+    background-color: hsl(0, 23%, 90%);
+    padding: 10px;
+    margin: 10px;
+}
+
+.get-form-mensagem{
+    background-color: hsl(0, 23%, 90%);
+    padding: 10px;
+    margin: 10px;
+}
+
+.get-form-submit{
+    background-color: hsl(0, 23%, 90%);
+    display: inline-block;
+    padding: 15px;
+    width: 180px;
+    position: relative;
+    top: 5;
+    left: 10px;       
+}
+
+.address{
+    width: 200px;
+    position: relative;
+    top: -310px;
+    left: 470px;
+}
+
+.img1-1{
+    position: relative;
+    left: -35px;
+    top: -65px;
+}
+
+.img1-2{
+    position: relative;
+    left: -30px;
+    top: -35px;
+}
+
+.img1-3{
+    position: relative;
+    left: -30px;
+    top: -35px;
+}
+
+.elements{
+    margin-left: 55px;
+    position: relative;
+    bottom: 250px;
+    display: inline-block;
+    width: 750px;
+}
+
+.elements h3{
+    color: hsl(0, 11%, 55%);
+}
+
+.elements a{
+    text-decoration: none;
+    color: hsl(0, 11%, 55%);
+}
+
+.listas{
+    margin-left: 55px;
+    position: relative;
+    bottom: 150px;
+    display: inline-block;
+    width: 750px;
+}
+
+.listas h3{
+    color: hsl(0, 11%, 55%);
+}
+
+.listas p{
+    color: hsl(0, 11%, 55%);
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    display: inline-block
+}
+
+.listas-nao-ordenada{
+    display: inline-block;
+}
+
+.listas-ordenada{   
+    float: right;
+}
+
+.listas-ordenada li{
+    list-style: decimal;
+    margin-top: 10px;
+}
+
+.listas-ordenada p{
+    margin-left: 20px;
+}
+
+.icons{
+    position: relative;
+    left: 430px;
+    top: -90px;
+    width: 200px;
+}
+
+.icons img{
+    border: 1px solid blue;
+    position: relative;
+    bottom: -50px;
+    left: -53px;
+}
+
+.actions{
+    margin-left: 55px;
+    position: relative;
+    bottom: 100px;
+    display: inline-block;
+    width: 750px;
+}
+
+.actions h3{
+    color: hsl(0, 7%, 55%);
+}
+
+.actions ul{
+    display: inline-block;
+}
+
+.actions li{
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: inline-block;
+    color: hsl(0, 11%, 77%);
+}
+
+footer img{
+    margin: 7px;
+    position: relative;
+    bottom: 130px;
+    left: 170px;
+}
+
+footer p{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    position: relative;
+    top: -60px;
+    left: 200px;
+}
+
+
+
+
+
+
+

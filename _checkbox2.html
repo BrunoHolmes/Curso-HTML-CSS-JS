@@ -1,0 +1,74 @@
+<!doctype html>
+<!--doctype informa ao agente de usuário a versão do HTML que deve ser renderizada -->
+<html lang="pt-br">
+
+    <head>
+        
+        <title> página de exemplo estrutura básica</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Bruno">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+   
+    </head>
+    
+    <style>
+        
+        span{
+            display: inline-block;
+            width: 50px;
+            height: 30px;
+            background: #ccc;
+        }
+        
+        span:before{
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            margin: 5px;
+            transition: all .2s ease-in-out;
+        }
+        
+        input[type='checkbox']:checked + span:before{
+            transform: translate(20px);
+            background: red;
+        }
+        
+        input[type='checkbox']{
+            height: 1px;
+            width: 1px;
+            overflow: hidden;
+            opacity: 0;
+        }
+        
+        input[type='checkbox']:focus + span{
+            box-shadow: 0 0 0 1px red;
+        }
+    
+    </style>
+    
+    <body>
+                 
+                <label>
+                    <input type="checkbox" value="qq">
+                    <span></span>
+                    Esportes
+                </label>
+                    
+                <label>
+                    <input type="checkbox" value="qq">
+                    <span></span>
+                    Política
+                </label>   
+                    
+                <label>
+                    <input type="checkbox" value="qq">
+                    <span></span>
+                    Meio-ambiente
+                </label>    
+        
+   </body>
+</html>
