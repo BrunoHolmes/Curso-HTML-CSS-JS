@@ -1,0 +1,83 @@
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    border-top: 1px solid transparent;
+}
+
+.topo{
+    background-image: url(EscudoSportRecife.jpg);
+    height: 525px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.topo h1{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.topo p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.topo ul{
+    text-align: right;
+    margin: 15px;
+}
+
+.topo li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.topo li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(255,0,0, 0.5)
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: orange;
+}
+
+.conteudo{
+    margin: 60px;
+    background-color: white;
+}
+
+.cards{
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.imagemEstadio{
+    border: 2px solid blue;
+    float:left;
+    display: inline-block;
+}
+
+.imagemEstadio img{
+    max-width: 1700px;
+    max-height: 400px;
+    height: auto;
+    
+    
+    
+}
